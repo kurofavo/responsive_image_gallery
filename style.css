@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    width: 200px;
+    border-right: 3px solid grey;
+    border-bottom: 3px solid grey;
+    box-shadow: 20px 20px 50px 10px pink;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+img {
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 15px 60px 10px;
+    object-fit: cover;
+    transition: all 1s;
+
+}
+
+img:hover {
+    transform: scale(1.1)
+}
